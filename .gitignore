@@ -1,0 +1,22 @@
+# OS & IDEs
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.gemini/
+
+# AI context data 
+CLAUDE.md
+.antigravity.json
+.antigravity.md
+
+# Agent / Tooling Outputs
+cc-output.txt
+cli-output.txt
+
+
+# WordPress Laufzeit-Daten und fremde Plugins ignorieren
+wp-content/
+plugins/*
+!plugins/junior-cart-helper/
+!plugins/cart-shield/
